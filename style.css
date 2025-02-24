@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    border: 1px solid #CDC1FF;
+    padding: 30px; 
+    text-align: center;
+}
+
+header h1 {
+    color: #c0b2f5;
+}
+
+header p {
+    font-style: italic;
+}
+
+header img {
+    width: 30%;
+    border: 2px solid #FFCCEA;
+    border-radius: 50%;
+}
+
+header img:hover {
+    transform: scale(.8);
+    transition: all .3s ease-in out;
+    box-shadow: 4px 4px 8px #BFECFF;
+}
+
+header button {
+    display: block;
+    margin : 3px auto;
+    padding: 10px 30px;
+    background-color: lightpink;
+    color: azure;
+    border-radius: 15px;
+    border: 10x solid white;
+
+}
+header button  :hover {
+ background-color: rgb(255, 252 , 252);
+ color:blue ;
+}
+
+#about {
+    width: 95%;
+    margin: 40px auto;
+    display: flex;
+}
+.left-about {
+    width: 50%;
+}
+.left-about img {
+    width: 100%;
+    border-radius: 50px 0;
+    margin-left: 100px;
+    box-shadow: 3px 3px 12px gray;
+
+}
+.right-about {
+    width: 50px;
+    padding: 40px;
+    margin-left: 100px;
+}
+.right-about h2 {
+    color: #FFCCEA(161, 122, 71);
+    padding: 100px;
+}
+.right-about p {
+    color: #FFCCEA(171, 121, 55);
+    padding: 100px;
+}
+
+#project {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid gray;
+    text-align: center;
+}
+#project h2 {
+    color: crimson;
+}
+
+.project-image {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-image img {
+    width: 25%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.project-image img :hover {
+    transform: scale(.9);
+    transition: all.3s ease-in-out;
+    box-shadow: 4px 4px 10px pink;
+}
